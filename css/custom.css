@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+
+
+.navbar{
+ background:#F97300;
+ 
+}
+.nav-link , .navbar-brand{
+ color: #f4f4f4;
+ cursor: pointer;
+}
+.nav-link{
+ margin-right: 1em !important;
+ color:white;
+}
+.nav-link:hover{
+ background: #f4f4f4;
+ color: #f97300;
+ /* border-radius:12px; */
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#fff !important;
+  
+}
+
+/*jumbotron styles start*/
+.jumbotron{
+  text-align: center;
+  background: url('../assets/Hero-Image.jpg') no-repeat;
+   background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+  margin-top:2px;
+}
+
+.jumbotron .btn{
+  padding: 14px 24px;
+  font-size: 21px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-transform: uppercase;
+}
+
+.jumbotron h1{
+  color: white;
+  text-transform: uppercase;
+}
+
+.jumbotron p{
+  color: white;
+  font-family: 'Arvo', serif;
+  background: rgba(54,53,53,0.5);
+  padding: 30px 5px 30px 5px;
+}
+
+
+/*jumbotron styles end*/
+
+
+.contact-form{
+ margin: 6em 0;
+ position: relative;  
+}
+.contact-form h1{
+ padding:2em 1px;
+ color: #F97300; 
+}
+.contact-form .right{
+ max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+ background:  #F97300;
+ color: #fff;
+ border:0;
+}
+.contact-form .right .form-control::placeholder{
+ color: #888;
+ font-size: 16px;
+}
+.contact-form .textcenter{
+	margin-top:-120px;
+	text-align:center;
+	color:#F97300
+}
